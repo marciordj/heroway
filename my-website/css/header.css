@@ -1,0 +1,20 @@
+.main-header {
+    background-color: #2C3E50;
+    color: white;
+}
+
+.main-header .title, .main-header .navigation {
+    display: inline;
+}
+
+/* .inline {
+    display: inline;
+}
+
+.main-header .navigation {
+    display: inline;
+} */
+
+.main-header a {
+    color: white;
+}
