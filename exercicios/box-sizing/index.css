@@ -1,0 +1,16 @@
+body {
+    margin: 20px;
+}
+
+.box {
+    width: 200px;
+    height: 120px;
+    background-color: #cafaff;
+    padding: 10px;
+    border: 5px solid #4e7cff;
+    margin: 10px;
+}
+
+.border-box {
+    box-sizing: border-box;
+}
