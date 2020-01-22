@@ -1,0 +1,15 @@
+.banner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    background-color: #D40A44;
+}
+
+
+.banner > img {             /*to usando ao inves de classe para aprender */
+    width: 150px;
+    height: 150px;
+}
