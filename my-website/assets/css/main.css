@@ -1,0 +1,16 @@
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+
+.portfolio > h2 {
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.portfolio > .star-bar > .bar {
+    background-color: #000;
+}
