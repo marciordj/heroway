@@ -14,3 +14,19 @@
 .portfolio > .star-bar > .bar {
     background-color: #000;
 }
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    width: 713px;
+    height: 300px;
+}
+
+.project-container > img {
+    width: 25%;
+    margin: 10px;
+    border-radius: 10px;
+}
