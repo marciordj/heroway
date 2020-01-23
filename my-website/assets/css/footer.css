@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 50px;
+    background-color: black;
+
+}
+
+.generic {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.generic > .title {
+    font-size: 16px;
+}
+
+.generic > .info {
+    font-size: 10px;
+}
