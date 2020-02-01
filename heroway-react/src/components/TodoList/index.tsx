@@ -16,7 +16,7 @@ function ToDoList () {
 
     return (
         <ul>
-            <li onClick={() => ToogleItemUm()} style = { {textDecoration: 'deveRiscarItemUm'} } >Estudar para Heroway</li>
+            <li onClick={() => ToogleItemUm()} style = { {textDecoration: deveRiscarItemUm ? 'line-through' : 'none'} } >Estudar para Heroway</li>
             <li>Mercado</li>
             <li>Estudar ingles</li>
         </ul>
