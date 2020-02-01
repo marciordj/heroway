@@ -1,9 +1,11 @@
 import React from 'react';
 
 function Counter () {
-    const ReactUseState = React.useState(0); //tem na documentação
-    const counter = ReactUseState[0];
-    const setCounter = ReactUseState[1];
+    // const ReactUseState = React.useState(0); //tem na documentação
+    // const counter = ReactUseState[0];
+    // const setCounter = ReactUseState[1];
+
+    const [counter, setCounter] = React.useState(0)  //menos verboso
 
     function add() {
         setCounter(counter + 1);
